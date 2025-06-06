@@ -15,6 +15,7 @@ class ApiService {
       headers: {
         'Content-Type': 'application/json',
       },
+      withCredentials: false,
     });
 
     this.setupInterceptors();
