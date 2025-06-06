@@ -16,6 +16,7 @@ class ApiService {
         'Content-Type': 'application/json',
       },
       withCredentials: false,
+      maxRedirects: 0,
     });
 
     this.setupInterceptors();
